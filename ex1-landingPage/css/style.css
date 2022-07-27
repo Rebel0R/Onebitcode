@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-image: url(../images/backgroundLp.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#container1 {
+  color: white;
+  background-color: rgba(19, 18, 18, 0.9450980392);
+  width: 450px;
+  height: auto;
+}
+
+.topLogo {
+  width: 185px;
+}
+
+.paragrafh {
+  margin: 8px 0px;
+}
+
+#btnSucess {
+  color: #ff0043;
+  border: 1px solid #ff0043;
+}
+#btnSucess:hover {
+  background-color: #ff0043;
+  color: white;
+}
+
+.footer {
+  margin-top: 30px;
+  margin-bottom: -30px;
+  color: white;
+}
+
+@media (max-width: 485px) {
+  #container1 {
+    width: auto;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
